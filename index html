@@ -1,36 +1,47 @@
 <!DOCTYPE html>
-<html lang="en"
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width"=device-width, initial-scale="1.0">
-
-<title>CURSO MOBILE FIRST</title>
-
-     <link rel="styesheet" href="reset.css">
-     <link rel="styesheet" href=""styles.css
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-</head>
 
-<body>
-    <header class="cabecalho">
+        <title>CURSO MOBILE FIRST</title>
+        
+             <link rel="styesheet" href="reset.css">
+             <link rel="styesheet" href=""styles.css>
+            
+        </head>
+        
+        <body>
 
-        <div> class="container">
-       
-        <span> class="cabecalho"_Menu -hamburguer container_imagem"></span>
+            <header class="cabecalho">
+        
+              <div> class="container">
+               
+                 <span class="cabecalho__menu-hamburguer container__imagem" ></span>
+        
+                 <img src="img/Logo.svg" alt="logomarca">
+                   
+              </div>
 
-        <img src="img/Logo.svg" alt="logomarca">
+              <div class="container">
+            
+                 
+                   <a href="#"> <img src="img/Favoritos.svg" alt="meus Favoritos" class="container__imagem"></a>
+        
+                   <a href="#"><img src="img/Emprestimos.svg" alt="meus Emprestimos" class="container__imagem"></a>
+        
+                   <a href="#"><img src="img/" alt="Meu perfil" class="container__imagem"></a>
+
+         </div>
+        
+         <header>
+        
+         </body>
+        
+         </html>
          
-           <a href="#"> <img src="img/Favoritos.svg" alt="meus Favoritos"class="container_imagem"></a>
 
-           <a href="#"><img src="img/Emprestimos.svg" alt="meus Emprestimos"class="container_imagem"></a>
 
-           <a href="#"><img src="img/Usuario.svg" alt="meu perfil"class="container_imagem"></a>
- </div>
 
- <header>
-
- </body>
-
- </html>
-
-    
+ 

@@ -1,6 +1,4 @@
-body{
-    background-color:blue;
-    color: wheat;}
+
 @import url(styles/header.css);
 
 :root{
@@ -8,4 +6,5 @@ body{
     --branco: #FFFFFF;}
 
 body{
-    background-color: var(--cor-de-fundo);}
+    background-color: var(--cor-de-fundo);
+}
