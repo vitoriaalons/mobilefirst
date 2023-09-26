@@ -1,79 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>CURSO MOBILE FIRST</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-    
+<title>CURSO MOBILE FIRST</title>
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
 <header class="cabecalho">
 
-    <div class="container">
+<div class="container">
 
-        <input type="checkbox" id="menu" class="container_botao" >
+    <input type="checkbox" id="menu" class="container_botao" >
 
-        <label for="menu">
+    <label for="menu">
 
-            <span class="cabecalho_menu-hamburguer container_imagem"></span>
+        <span class="cabecalho_menu-hamburguer container_imagem"></span>
 
-        </label>
+    </label>
 
- <ul class="lista-menu">
+<ul class="lista-menu">
 
-        <li class="lista-menu_titulo">Categorias</li>
+    <li class="lista-menu_titulo">Categorias</li>
 
-        <li class="lista-menu_item"></li>
-        <a href="#" class="lista-menu_link">Aventura</a>
+    <li class="lista-menu_item"></li>
+    <a href="#" class="lista-menu_link">Aventura</a>
 
-        <li class="lista-menu_item"></li>
-        <a href="#" class="lista-menu_link">Biografia</a>
+    <li class="lista-menu_item"></li>
+    <a href="#" class="lista-menu_link">Biografia</a>
 
-        <li class="lista-menu_item"></li>
-        <a href="#" class="lista-menu_link">Ficção</a>
+    <li class="lista-menu_item"></li>
+    <a href="#" class="lista-menu_link">Ficção</a>
 
-        <li class="lista-menu_item"></li>
-        <a href="#" class="lista-menu_link">Romance</a>
+    <li class="lista-menu_item"></li>
+    <a href="#" class="lista-menu_link">Romance</a>
 
-        <li class="lista-menu_item"></li>
-        <a href="#" class="lista-menu_link">Vestibular</a>
+    <li class="lista-menu_item"></li>
+    <a href="#" class="lista-menu_link">Vestibular</a>
 
 </ul>
 
-        <img src="img/Logo.svg" alt="Logomarca" class="container_imagem">
+    <img src="img/Logo.svg" alt="Logomarca" class="container_imagem">
 
-    </div>
+</div>
 
 <div class="container">
 
 
 
-         <a href="#"> <img src="img/Favoritos.svg" alt="Meus Favoritos" 
-            class="container_imagem"></a>
+        <a href="#"> <img src="img/Favoritos.svg" alt="Meus Favoritos" class="container_imagem"></a>
 
-         <a href="#"> <img src="img/Emprestimos.svg" alt="Meus Emprestimos"
-             class="container_imagem"></a>
+        <a href="#"> <img src="img/Emprestimos.svg" alt="Meus Emprestimos"class="container_imagem"></a>
 
-    <a href="#"> <img src="img/Usuario.svg" alt="Meu Perfil"
-        class="container_imagem"></a>
-
-</ul>
+<a href="#"> <img src="img/Usuario.svg" alt="Meu Perfil"class="container_imagem"></a>
 
 </div>
-   
-
-
 </header>
-    
-</body>
+
+<section class="banner">
+    <h2 class="banner__titulo"> Jà sabe por onde começar?
+    </h2>
+
+           <p class="banner__texto">
+            Encontre em nossa estante o que precisa para o seu desenvolvimentol</p>
+
+           <input type="search" class="banner__pesquisa" placeholder="Qual será a pròxima leitura?">
+
+    </section>
+
+    <p></p>
+
+  </body>
 </html>
 
 
 
- 

@@ -8,8 +8,16 @@
     --cor-de-fundo: #EBECEE;
     --branco: #FFFFFF;
     --amarelo:#FECD2F;
-    --roxo: #994984;   
+    --roxo: #8a1aa8;
+    --preto: #000000;
+    --fonte-principal: "Poppins"
+    --fonte-secundaria: "Josefin Sans"
 }
+
 body{
     background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-family: var(--fonte-secundaria);
+    font-size: 16px;
+    font-weight: 400 ;
 }
