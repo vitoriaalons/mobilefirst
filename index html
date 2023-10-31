@@ -36,7 +36,6 @@ rel="stylesheet">
    <li class="lista-menu_item"></li><a href="#" class="lista-menu__link">Romance</a>
 
    <li class="lista-menu_item"></li><a href="#" class="lista-menu__link">Vestibular</a>
-
 </ul>
 
     <img src="img/Logo.svg" alt="Logomarca" class="container__imagem">
@@ -46,31 +45,40 @@ rel="stylesheet">
 </div>
 
 <ul class="opções">
-         <li class="opções__item">Categorias</li>
-         <li class="opções__item"><a href="#" class="opções__link">Favoritos</a> </li>
-         <li class="opções__item"><a href="#" class="opções__link">meus Emprestimos</a>m </li>
+
+  <input type="checkbox"id="opções__menu" class="opções__botão">
+
+  <label for="opções__menu"><li class="opções__item">Categorias</li>   </label>
+
+  <ul class="lista-menu">
+
+    <li class="opções__item"><a href="#" class="opções__link">Aventura</a> </li>
+    <li class="opções__item"><a href="#" class="opções__link">Biografia</a> </li>
+    <li class="opções__item"><a href="#" class="opções__link">ficção</a> </li>
+    <li class="opções__item"><a href="#" class="opções__link">Romance</a> </li>
+    <li class="opções__item"><a href="#" class="opções__link">Vestibular</a> </li>
 <ul>
-
-<div class="container">
-
-
-
-    <a href="#"> <img src="img/Favoritos.svg" alt="Meus Favoritos" class="container__imagem"></a>
+    <li class="opções__item"><a href="#" class="opções__link">Favoritos</a> </li>
+    <li class="opções__item"><a href="#" class="opções__link">Meus Emprestimos</a> </li>
+</ul>
+   
+  <div class="container">
+     <a href="#"> <img src="img/Favoritos.svg" alt="Meus Favoritos" class="container__imagem 
+container__imagem--transparente"></a>
      <a href="#"> <img src="img/Emprestimos.svg" alt="Meus Emprestimos" class="container__imagem"></a>
-      <a href="#"> <img src="img/Usuario.svg" alt="meu perfil" class="container_imagem"></a>
+     <a href="#"> <img src="img/Usuario.svg" alt="meu perfil" class="container_imagem"></a>
 
 </div>
 </header>
 
 <section class="banner">
-    <h2 class="banner__titulo"> jà sabe por onde começar?</h2>
+    <h2 class="banner__titulo"> jà sabe por onde começar? </h2>
+    <p class="banner__texto"> Encontre em nossa estante o que precisa para o seu desenvolvimento!</p>
+    <input type="search" class="banner__pesquisa" placeholder="Qual será a pròxima leitura?">
 
-        <p class="banner__texto"> Encontre em nossa estante o que precisa para o seu desenvolvimento</p>
-        <input type="search" class="banner__pesquisa" placeholder="Qual será a pròxima leitura?">
-
-    </section>
-  </body>
-</html>
+</section>
+ </body>
+ </html>
 
 
 
